@@ -1,0 +1,25 @@
+{
+  "name": "bootstrap-textures",
+  "version": "0.1.0",
+  "description": "Easily apply textures to Bootstrap 4 elements",
+  "scripts": {
+    "css": "npm run css-minify",
+    "css-minify": "node-sass --output-style compressed --source-map true --source-map-contents true --precision 6 scss/ -o dist/"
+  },
+  "files": [
+    "dist/",
+    "scss/"
+  ],
+  "style": "dist/textures.css",
+  "sass": "dist/textures.scss",
+  "peerDependencies": {
+    "bootstrap": "^4.0"
+  },
+  "devDependencies": {
+    "bootstrap": "^4.0",
+    "node-sass": "^4.0"
+  },
+  "keywords": ["bootstrap","textures","metal","gold","wood","button","style"],
+  "author": "",
+  "license": "ISC"
+}
