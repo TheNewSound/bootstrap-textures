@@ -1,5 +1,7 @@
-#Bootstrap - Textures
-##Usage
+# Bootstrap - Textures
+
+## Usage
+
 Using a sass loader, **after** importing bootstrap:
 ```javascript
 import "bootstrap-textures/scss/textures.scss";
@@ -17,7 +19,9 @@ Old school stylesheet:
 ```html
 <link rel="stylesheet" href="bootstrap-textures/dist/textures.css">
 ```
-##Installation
+
+## Installation
+
 ```sh
 npm install bootstrap-textures
 ```
