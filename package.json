@@ -5,7 +5,7 @@
   "scripts": {
     "css": "npm run css-minify",
     "css-minify": "node-sass --output-style compressed --source-map true --source-map-contents true --precision 6 scss/ -o dist/",
-    "build-docs": "cp ./node_modules/bootstrap/dist/css/bootstrap.min.css ./site/ && cp ./node_modules/bootstrap/dist/js/bootstrap.min.js ./site/"
+    "build-docs": "cp ./node_modules/bootstrap/dist/css/bootstrap.min.css docs/ && cp ./node_modules/bootstrap/dist/js/bootstrap.min.js docs/"
   },
   "files": [
     "dist/",
