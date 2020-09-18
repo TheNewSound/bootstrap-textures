@@ -4,7 +4,8 @@
   "description": "Easily apply textures to Bootstrap 4 elements",
   "scripts": {
     "css": "npm run css-minify",
-    "css-minify": "node-sass --output-style compressed --source-map true --source-map-contents true --precision 6 scss/ -o dist/"
+    "css-minify": "node-sass --output-style compressed --source-map true --source-map-contents true --precision 6 scss/ -o dist/",
+    "build-docs": "cp ./node_modules/bootstrap/dist/css/bootstrap.min.css ./site/ && cp ./node_modules/bootstrap/dist/js/bootstrap.min.js ./site/"
   },
   "files": [
     "dist/",
