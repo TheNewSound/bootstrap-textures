@@ -1,6 +1,6 @@
 # Bootstrap - Textures
 
-#### [ > View examples & documentation](https://thenewsound.github.io/bootstrap-textures/docs)
+#### [ > View examples & documentation](https://thenewsound.github.io/bootstrap-textures)
 
 ## Installation & Usage
 
