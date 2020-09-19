@@ -5,7 +5,7 @@
   "scripts": {
     "css": "npm run css-minify",
     "css-minify": "node-sass --output-style compressed --source-map true --source-map-contents true --precision 6 scss/ -o dist/",
-    "build": "npm run css && cp ./node_modules/bootstrap/dist/css/bootstrap.min.css docs/ && cp ./node_modules/bootstrap/dist/js/bootstrap.bundle.min.js docs/ && cp -r dist/* docs/"
+    "build": "npm run css && cp ./node_modules/bootstrap/dist/css/bootstrap.min.css* docs/ && cp ./node_modules/bootstrap/dist/js/bootstrap.bundle.min.js* docs/ && cp -r dist/* docs/"
   },
   "files": [
     "dist/",
@@ -21,6 +21,14 @@
     "node-sass": "^4.0"
   },
   "keywords": ["bootstrap","textures","metal","gold","wood","button","style"],
-  "author": "",
-  "license": "ISC"
+  "author": "TheNewSound <thenewsound@worldwidecrap.nl> (https://worldwidecrap.nl/)",
+  "homepage": "https://thenewsound.github.com/bootstrap-textures/docs",
+  "bugs": { "url" : "https://github.com/thenewsound/bootstrap-textures/issues"
+  , "email" : "bootstrap-textures-bugs@worldwidecrap.nl"
+  },
+  "license": "BSD-3-Clause",
+  "repository": {
+    "type" : "git",
+    "url" : "github:thenewsound/bootstrap-textures.git"
+  }
 }
