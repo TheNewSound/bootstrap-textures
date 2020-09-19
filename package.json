@@ -18,17 +18,27 @@
   },
   "devDependencies": {
     "bootstrap": "^4.0",
-    "node-sass": "^4.0"
+    "node-sass": "^4.0",
+    "jquery": "^3.0"
   },
-  "keywords": ["bootstrap","textures","metal","gold","wood","button","style"],
+  "keywords": [
+    "bootstrap",
+    "textures",
+    "metal",
+    "gold",
+    "wood",
+    "button",
+    "style"
+  ],
   "author": "TheNewSound <thenewsound@worldwidecrap.nl> (https://worldwidecrap.nl/)",
   "homepage": "https://thenewsound.github.com/bootstrap-textures/docs",
-  "bugs": { "url" : "https://github.com/thenewsound/bootstrap-textures/issues"
-  , "email" : "bootstrap-textures-bugs@worldwidecrap.nl"
+  "bugs": {
+    "url": "https://github.com/thenewsound/bootstrap-textures/issues",
+    "email": "bootstrap-textures-bugs@worldwidecrap.nl"
   },
-  "license": "BSD-3-Clause",
+  "license": "BSD-2-Clause",
   "repository": {
-    "type" : "git",
-    "url" : "github:thenewsound/bootstrap-textures.git"
+    "type": "git",
+    "url": "github:thenewsound/bootstrap-textures.git"
   }
 }

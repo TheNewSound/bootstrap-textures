@@ -1,14 +1,23 @@
 # Bootstrap - Textures
 
-## Usage
+#### [ > View examples & documentation](https://thenewsound.github.io/bootstrap-textures/docs)
 
-Using a sass loader, **after** importing bootstrap:
+## Installation & Usage
+
+Install using your favorite package manager:
+```sh
+npm install bootstrap-textures
+```
+
+**Usage:**
+
+If you are using a sass loader, **after** importing bootstrap:
 ```javascript
 import "bootstrap-textures/scss/textures.scss";
 ```
 **OR**
 
-Using a css-loader, **after** importing bootstrap:
+If you are using a css-loader, **after** importing bootstrap:
 ```javascript
 import "bootstrap-textures/dist/textures.css";
 ```
@@ -18,10 +27,4 @@ import "bootstrap-textures/dist/textures.css";
 Old school stylesheet:
 ```html
 <link rel="stylesheet" href="bootstrap-textures/dist/textures.css">
-```
-
-## Installation
-
-```sh
-npm install bootstrap-textures
 ```
