@@ -19,7 +19,7 @@ import "bootstrap-textures/scss/textures.scss";
 
 If you are using a css-loader, **after** importing bootstrap:
 ```javascript
-import "bootstrap-textures/dist/textures.css";
+import "bootstrap-textures/dist/textures.min.css";
 ```
 
 **OR**

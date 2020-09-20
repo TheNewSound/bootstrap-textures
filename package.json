@@ -3,15 +3,15 @@
   "version": "0.1.0",
   "description": "Easily apply textures to Bootstrap 4 elements",
   "scripts": {
-    "css": "npm run css-minify",
-    "css-minify": "node-sass --output-style compressed --source-map true --source-map-contents true --precision 6 scss/ -o dist/",
-    "build": "npm run css && cp ./node_modules/bootstrap/dist/css/bootstrap.min.css* docs/ && cp ./node_modules/bootstrap/dist/js/bootstrap.bundle.min.js* docs/ && cp -r dist/* docs/"
+    "css": "npm run css-minify && npm run css-compile",
+    "css-minify": "node-sass --output-style compressed --source-map true --source-map-contents true --precision 6 scss/textures.scss -o dist/ && mv dist/textures.css dist/textures.min.css && mv dist/textures.css.map dist/textures.min.css.map",
+    "css-compile": "node-sass --output-style expanded --source-map true --source-map-contents true --precision 6 scss/textures.scss -o dist/"
   },
   "files": [
     "dist/",
     "scss/"
   ],
-  "style": "dist/textures.css",
+  "style": "dist/textures.min.css",
   "sass": "dist/textures.scss",
   "peerDependencies": {
     "bootstrap": "^4.0"
